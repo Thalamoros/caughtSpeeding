@@ -21,7 +21,7 @@ public class Speeding {
 	public static int caughtSpeeding(int speed, boolean isBirthday)
 	
 	{
-		if (isBirthday = false){
+		if (isBirthday == false){
 			if (speed <= 60) {
 				return 0;
 			}
@@ -34,7 +34,7 @@ public class Speeding {
 			
 		}
 	
-		if (isBirthday = true){
+		if (isBirthday == true){
 			if (speed <= 65) {
 				return 0;
 			}
